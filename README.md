@@ -4,7 +4,7 @@
 
 The model is in Tosun. To run it:
 
-1- ssh {address} -> Then enter your password
+1- ssh {address} -> Then enter your password /n
 2- Allocate a GPU node -> srun --partition=cuda --qos=cuda --gres=gpu:1 --mem=32G --time=1:00:00 --pty bash
 3- Activate venv -> source venv/bin/activate
 4- Go to cd ~/turkish-1b/out/turkish-1b-v100-smoke
